@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-    sentence_count = 0
-    count_sentences == sentence_count
-    sentence_count = self.split(/\.|\?|!/).length
+  self.split.count
   end
 end
